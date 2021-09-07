@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springMVC_study.iml" filepath="$PROJECT_DIR$/springMVC_study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_annotation/springmvc_annotation.iml" filepath="$PROJECT_DIR$/springmvc_annotation/springmvc_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_study01/springmvc_study01.iml" filepath="$PROJECT_DIR$/springmvc_study01/springmvc_study01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_study02/springmvc_study02.iml" filepath="$PROJECT_DIR$/springmvc_study02/springmvc_study02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_study03/springmvc_study03.iml" filepath="$PROJECT_DIR$/springmvc_study03/springmvc_study03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_study04/springmvc_study04.iml" filepath="$PROJECT_DIR$/springmvc_study04/springmvc_study04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_study05/springmvc_study05.iml" filepath="$PROJECT_DIR$/springmvc_study05/springmvc_study05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc_study06/springmvc_study06.iml" filepath="$PROJECT_DIR$/springmvc_study06/springmvc_study06.iml" />
+    </modules>
+  </component>
+</project>

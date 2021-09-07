@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style type="text/css">
+        a,form {
+            margin-left: 400px;
+        }
+        a {
+            background-color: #17e59d;
+            border: darkorange 1px solid;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<h1 style="text-align: center">欢迎来到临时客户管理系统</h1>
+<a th:href="@{/employee}">查询员工列表</a><br>
+<a th:href="@{/download}">下载图片</a><br>
+<form th:action="@{/upload}" method="post" enctype="multipart/form-data">
+    上传头像<input type="file" name="icon">
+    <input type="submit" name="上传头像" value="头像上传">
+</form>
+<a th:href="@{/toError}">/toError 定制错误视图</a><br>
+
+</body>
+</html>

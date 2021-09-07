@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>test_rest</title>
+</head>
+<body>
+<a th:href="@{/user}">Get all uses</a><br>
+<a th:href="@{/user/1}">Get use by id</a><br>
+<form th:action="@{/user}" method="post">
+    username:<input type="text" name="username"><br>
+    password:<input type="password" name="password"><br>
+    <input type="submit" name="add user" value="add user"><br>
+</form><br>
+
+<form th:action="@{/user}" method="post">
+    <input type="hidden" name="_method" value="put">
+    username:<input type="text" name="username"><br>
+    password:<input type="password" name="password"><br>
+    <input type="submit" name="modify user" value="modify user"><br>
+</form><br>
+
+<form th:action="@{/user}" method="post">
+    <input type="hidden" name="_method" value="delete">
+    username:<input type="text" name="username"><br>
+    password:<input type="password" name="password"><br>
+    <input type="submit" name="delete user" value="delete user"><br>
+</form><br>
+</body>
+</html>
